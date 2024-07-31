@@ -5,10 +5,9 @@ import {
 } from "react-router-dom";
 
 
-export class Nav extends Component {
+const Nav=()=>{
 //   static propTypes = {}
 
-  render() {
     return (
       <div>
          <div>
@@ -40,6 +39,5 @@ export class Nav extends Component {
       </div>
     )
   }
-}
 
 export default Nav
